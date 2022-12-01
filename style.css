@@ -1,0 +1,70 @@
+body {
+    background-image: linear-gradient(to right , rgb(20 , 147 , 220) , rgb(42, 102, 131));
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    text-align: center;
+    color: white;
+    font-size: larger;
+    background-image: linear-gradient(to right, rgb(0 , 92 , 197) , rgb(90 , 20 , 220));
+    width: 400px;
+    margin: auto;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 50px;
+}
+
+section {
+    text-align: center;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 10px black;
+    color: white;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    font-size: larger;
+    border-radius: 10px;
+    background-color: rgba(18, 9, 9, 0.8);
+}
+
+.tabela {
+    color: aliceblue;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    margin-right: 5px;
+    
+}
+
+.ano , .cod , .car , .fre , .not {
+    text-align: left;
+    width: 450px;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    padding-left: 10px;
+}
+
+p#pano , p#pcod , p#pcar , p#pfre , p#pnot {
+    text-align: left;
+}
+
+.bot { 
+    background-image: linear-gradient(to right, rgb(0 , 92 , 197) , rgb(90 , 20 , 220));
+    width: 50%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+} 
+
+.bot:hover {
+    background-image: linear-gradient(to right, rgb(0 ,  80 , 172) , rgb(80 , 19 , 195));
+}
+
+.respostas {
+    text-align: left;
+}
+

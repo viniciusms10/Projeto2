@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Histórico Escolar</h1>
+    </header>
+
+    <section>
+      <form id="form">
+        <p id="pano">Ano/Período Letivo: </p>
+        <input class="ano" id="ano" type="number" name="numAno" placeholder="Digite seu ano/período letivo... ">
+        <p id="pcod">Código da Disciplina: </p>
+        <input class="cod" id="cod" type="text" name="txtCod" placeholder="Digite seu código da disciplina... " >
+        <p id="pcar">Carga Horária(CH): </p>
+        <input class="car" id="car" type="number" name="numCar" placeholder="Digite sua carga horária...">
+        <p id="pfre">Frequência: </p>
+        <input class="fre" id="fre" type="number" name="numFre" placeholder="Digite sua frequência...">
+        <p id="pnot">Nota:</p>
+        <input class="not" id="not" type="number" name="numNot" placeholder="Digite sua nota..." min="0" max="10" minlength="1" maxlength="2">
+        
+
+        <p><button type="submit" class="bot"  onclick="clicar(ano.value,cod.value,car.value,fre.value,not.value)">Enter</button></p>
+        
+      </form>  
+    
+    <div class="respostas">
+      <div id="valoresInput">
+        <p>Período Letivo: <span id="periodo"></span></p>
+        <p>Disciplina: <span id="disciplina"></span></p>
+        <p>Carga Horária: <span id="CH"></span></p>
+        <p>Nota: <span id="nota"></span></p>
+        <p>Frequência: <span id="frequencia"></span></p>
+      </div>
+    
+        <br>
+
+      <div id="operacoes">
+        <p>Tempo de curso: <span id="tempoCurso"></span></p>
+        <p>Média ponderada pela CH: <span id="mediapon"></span></p>
+        <p>Desvio padrão da média geral: <span id="desvioPadrao"></span></p>
+        <p>Matérias aprovadas: <span id="aprovada"></span></p>
+        <p>Matérias reprovadas: <span id="reprovada"></span></p>
+        <p>Carga horária total cursada: <span id="totalCH"></span></p>
+        <p>MGP das disciplinas de departamentos diferentes: <span id="mgpDisciplina"></span></p>
+    </div>
+
+    </div>
+    
+    </section>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
